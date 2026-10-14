@@ -1,0 +1,15 @@
+# Dynare build products
++*/
+model/sd24_climate_debt/
+*.log
+*_results.mat
+*.jnl
+
+# Simulation results and intermediate files
+output/
+
+# MATLAB and OS clutter
+*.asv
+*.mex*
+.DS_Store
+Thumbs.db
